@@ -490,12 +490,3 @@ export default function SmartStores() {
     </div>
   );
 }
-```
-
----
-
-## Your complete `src/` folder should now have exactly these two files
-```
-src/
-├── main.jsx          ← already exists
-└── SmartStores.jsx   ← add this now
