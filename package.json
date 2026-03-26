@@ -1,7 +1,6 @@
 {
   "name": "smart-stores",
   "version": "2.0.1",
-  "description": "Smart Stores Enterprise WMS Desktop Client",
   "main": "electron/main.js",
   "scripts": {
     "dev": "vite",
@@ -23,13 +22,8 @@
   "build": {
     "appId": "com.smartstores.wms",
     "productName": "Smart Stores",
-    "directories": {
-      "output": "release"
-    },
-    "files": [
-      "dist/**/*",
-      "electron/**/*"
-    ],
+    "directories": { "output": "release" },
+    "files": ["dist/**/*", "electron/**/*"],
     "win": {
       "target": [{ "target": "nsis", "arch": ["x64"] }],
       "icon": "public/icon.ico"
