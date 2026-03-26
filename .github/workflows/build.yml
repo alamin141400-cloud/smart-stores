@@ -35,3 +35,4 @@ jobs:
           name: SmartStores-Windows-EXE
           path: release/*.exe
           retention-days: 30
+
